@@ -1,0 +1,27 @@
+{
+  "name": "jest-lambda-example",
+  "version": "1.0.0",
+  "description": "Example project for testing AWS lambda with Jest",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "yarn jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bull": "3.18.0",
+    "slonik": "22.6.0",
+    "aws-sdk": "2.789.0"
+  },
+  "devDependencies": {
+    "@types/bull": "3.14.4",
+    "@types/jest": "25.2.3",
+    "@types/node": "14.14.20",
+    "@types/slonik": "22.1.0",
+    "jest": "24.9.0",
+    "ts-jest": "25.5.1",
+    "typescript": "4.0.5"
+  }
+}
